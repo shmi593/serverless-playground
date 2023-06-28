@@ -1,0 +1,34 @@
+{
+  "name": "lambda_typescript_esbuild_sample",
+  "version": "1.0.0",
+  "description": "Sample code of sls / typescript / esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit",
+    "build": "tsc --noEmit && npx sls package",
+    "deploy": "npx sls deploy"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "volta": {
+    "node": "18.16.1",
+    "npm": "9.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "esbuild": "^0.17.19",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.8",
+    "serverless": "^3.33.0",
+    "serverless-esbuild": "^1.45.1",
+    "serverless-offline": "^12.0.4",
+    "typescript": "^5.1.5"
+  }
+}
