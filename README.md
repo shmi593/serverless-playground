@@ -1,1 +1,1 @@
-# sls-node-sample
+# serverless-playground
